@@ -22,6 +22,13 @@ g.bat
 
 **linux**
 
+64位linux提示gnu/stubs-32.h:No such file or directory的解决方法
+```
+ubuntu：sudo apt-get install libc6-dev-i386
+
+CentOS：sudo yum -y install glibc-devel.i686
+```
+
 ```bash
 git submodule update --init -- "aoi"
 cd build
